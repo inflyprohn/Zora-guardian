@@ -2,9 +2,9 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { Cpu } from "lucide-react";
 
 const CLOSED_SENSOR_URL =
-  "/assets/aistudio/Render_detallado_del_dispositivo_Zora_Guardian_6fd100c4.png";
+  `${import.meta.env.BASE_URL}assets/aistudio/Render_detallado_del_dispositivo_Zora_Guardian_6fd100c4.png`;
 const OPEN_SENSOR_URL =
-  "/assets/aistudio/Mo_dulo_ESP32_abierto_con_sensor_ultraso_nico_43e9a077.png";
+  `${import.meta.env.BASE_URL}assets/aistudio/Mo_dulo_ESP32_abierto_con_sensor_ultraso_nico_43e9a077.png`;
 
 interface ComponentHotspot {
   id: string;
