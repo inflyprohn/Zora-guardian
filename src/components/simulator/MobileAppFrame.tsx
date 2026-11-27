@@ -30,7 +30,7 @@ type PhoneTab = "inicio" | "consumo" | "alertas" | "ajustes";
 type ConsumptionPeriod = "dia" | "semana" | "mes";
 
 const PHONE_FRAME_URL =
-  "/assets/aistudio/Smartphone_con_interfaz_Zora_Guardian_2ad44f8d.png";
+  `${import.meta.env.BASE_URL}assets/aistudio/Smartphone_con_interfaz_Zora_Guardian_2ad44f8d.png`;
 
 interface MobileAppFrameProps {
   level: number;
