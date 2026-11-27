@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Building2, Cpu, Home } from "lucide-react";
 
-const EXPLODED_IMAGE_URL = "/src/assets/images/zora_exploded_view_1795799022341.jpg";
+const EXPLODED_IMAGE_URL = `${import.meta.env.BASE_URL}src/assets/images/zora_exploded_view_1795799022341.jpg`;
 
 const DEVICE_SPECS = [
   {
