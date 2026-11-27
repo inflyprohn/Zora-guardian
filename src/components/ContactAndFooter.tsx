@@ -1,4 +1,4 @@
-const BRAND_LOGO_URL = "/assets/aistudio/logozora_290e0fb5.png";
+const BRAND_LOGO_URL = `${import.meta.env.BASE_URL}assets/aistudio/logozora_290e0fb5.png`;
 
 export function ContactAndFooter() {
   return (
