@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { ArrowDownRight, ArrowRight, Waves } from "lucide-react";
 
-const HERO_IMAGE_URL =
-  "/assets/aistudio/Sistema_Zora_Guardian_en_accio_n_cecfec89.png";
+const HERO_IMAGE_URL = `${import.meta.env.BASE_URL}assets/aistudio/Sistema_Zora_Guardian_en_accio_n_cecfec89.png`;
 
 export function HeroSection() {
   const [imgFailed, setImgFailed] = useState(false);
