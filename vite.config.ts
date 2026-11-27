@@ -6,6 +6,8 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    // GitHub Pages serves this repository from /Zora-guardian/, not from the domain root.
+    base: '/Zora-guardian/',
     plugins: [
       react(),
       tailwindcss(),
