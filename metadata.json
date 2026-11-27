@@ -1,0 +1,6 @@
+{
+  "name": "Zora Guardian",
+  "description": "Plataforma de monitoreo inteligente del nivel de agua en cisternas y tanques con simulador interactivo e inspección visual asistida.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

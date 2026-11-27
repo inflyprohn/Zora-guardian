@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071d39">
+  <meta name="description" content="Zora Guardian: monitoreo inteligente del nivel de agua en cisternas y tanques.">
+  <title>Zora Guardian — El agua bajo control</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Zora Guardian, inicio">
+      <span class="brand-mark"><svg viewBox="0 0 44 50" aria-hidden="true"><path d="M22 3C16 14 5 24 5 33a17 17 0 0 0 34 0C39 24 28 14 22 3Z"/><path d="M12 31c5-5 15-5 20 0M16 36c3-3 9-3 12 0M21 41h2"/></svg></span>
+      <span class="brand-name">zora<span>guardian</span></span>
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span></button>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="#como-funciona">Cómo funciona</a>
+      <a href="#beneficios">Beneficios</a>
+      <a href="#simulador">Simulador</a>
+      <a href="#producto">El dispositivo</a>
+    </nav>
+    <a class="header-cta" href="#contacto">Solicitar información <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-line"></span> MONITOREO INTELIGENTE DE AGUA</div>
+        <h1>Que nunca te<br>tome por <em>sorpresa</em><span class="period">.</span></h1>
+        <p class="hero-lede">Conoce el nivel de tu cisterna sin tener que abrirla. Zora Guardian lleva la lectura del agua a tu celular y te ayuda a anticiparte.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#simulador">Probar simulador <span>↘</span></a>
+          <a class="text-link" href="#como-funciona">Conocer cómo funciona <span>→</span></a>
+        </div>
+        <div class="hero-proof">
+          <span class="proof-icon">⌁</span>
+          <span>Una forma más clara de gestionar tu reserva de agua.</span>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div>
+        <div class="visual-tag tag-top"><span class="live-dot"></span> Lectura remota</div>
+        <img src="assets/zora-product-reference.png" alt="Representación del sensor Zora Guardian instalado sobre una cisterna y conectado a una aplicación móvil" class="hero-product">
+        <div class="visual-caption"><span>01 / 03</span><span>Dispositivo de monitoreo IoT</span></div>
+      </div>
+      <div class="hero-index">ZG — 01</div>
+    </section>
+
+    <section class="problem section-pad">
+      <div class="section-kicker">EL PROBLEMA COTIDIANO <span>01 — 04</span></div>
+      <div class="problem-grid">
+        <h2>El agua se acaba.<br><span>La señal llega tarde.</span></h2>
+        <div class="problem-copy">
+          <p>Cuando el suministro es irregular, depender de revisiones manuales puede dejarte sin margen para reaccionar.</p>
+          <div class="problem-points">
+            <div><b>01</b><span>No saber cuánta agua queda en la cisterna.</span></div>
+            <div><b>02</b><span>Descubrir una fuga o un nivel bajo demasiado tarde.</span></div>
+            <div><b>03</b><span>Coordinar abastecimiento sin información actualizada.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="how section-pad" id="como-funciona">
+      <div class="section-heading">
+        <div><div class="section-kicker">UNA LECTURA MÁS CLARA <span>02 — 04</span></div><h2>Del tanque a tu pantalla.</h2></div>
+        <p>Un sistema pensado para que puedas consultar el estado de tu reserva y tomar decisiones con tiempo.</p>
+      </div>
+      <div class="steps">
+        <article class="step-card">
+          <div class="step-number">01</div><div class="step-icon"><svg viewBox="0 0 48 48"><path d="M8 16h32v23H8zM14 16V9h20v7M17 25h14M17 31h8"/><path d="M24 3v8m-5-4 5-4 5 4"/></svg></div>
+          <h3>Mide</h3><p>El sensor ultrasónico calcula la distancia hasta la superficie del agua, sin contacto directo con ella.</p>
+        </article>
+        <article class="step-card">
+          <div class="step-number">02</div><div class="step-icon"><svg viewBox="0 0 48 48"><rect x="8" y="8" width="32" height="32" rx="5"/><path d="M16 18h16M16 24h10M16 30h13M4 16h4m32 0h4M4 32h4m32 0h4"/></svg></div>
+          <h3>Comunica</h3><p>La unidad electrónica procesa la lectura y la envía a la plataforma mediante su conexión IoT.</p>
+        </article>
+        <article class="step-card">
+          <div class="step-number">03</div><div class="step-icon"><svg viewBox="0 0 48 48"><rect x="13" y="4" width="22" height="40" rx="4"/><path d="M19 10h10M19 36h10M18 24l4 4 8-9"/></svg></div>
+          <h3>Te informa</h3><p>Consulta el nivel y recibe avisos cuando la lectura cruza los umbrales configurados.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="simulator-section section-pad" id="simulador">
+      <div class="simulator-intro">
+        <div class="section-kicker light-kicker">PRUÉBALO TÚ MISMO <span>03 — 04</span></div>
+        <h2>Imagina tener<br>el nivel <em>a la vista.</em></h2>
+        <p>Mueve el control para simular cómo cambia el agua en una cisterna y cómo se refleja el estado en la aplicación.</p>
+        <div class="sim-note"><span class="note-mark">i</span> Simulación interactiva. No está conectada a un dispositivo físico.</div>
+      </div>
+      <div class="simulator">
+        <div class="tank-panel">
+          <div class="panel-top"><span>CISTERNA PRINCIPAL</span><span class="connection"><i></i> EN LÍNEA · DEMO</span></div>
+          <div class="tank-scene">
+            <div class="sensor-device"><span class="sensor-wave wave-a"></span><span class="sensor-wave wave-b"></span><span class="sensor-wave wave-c"></span><span class="sensor-lens"></span></div>
+            <div class="tank-shell"><div class="tank-water" id="tankWater"><div class="water-shimmer"></div></div><div class="tank-glass"></div></div>
+            <div class="tank-percent" id="tankPercent">78%</div>
+            <div class="tank-label">NIVEL DE AGUA</div>
+          </div>
+          <div class="tank-foot"><span>0 L</span><span id="litersReadout">7,800 L / 10,000 L</span><span>10,000 L</span></div>
+          <div class="level-control">
+            <div class="control-label"><label for="levelRange">Ajustar nivel</label><strong id="rangeValue">78%</strong></div>
+            <input id="levelRange" type="range" min="0" max="100" value="78" step="1">
+            <div class="range-labels"><span>Vacía</span><span>Llena</span></div>
+            <div class="control-buttons"><button class="small-button" id="drainBtn">− Retirar agua</button><button class="small-button" id="fillBtn">+ Agregar agua</button><button class="reset-button" id="resetBtn" aria-label="Reiniciar simulación">↺</button></div>
+          </div>
+        </div>
+        <div class="app-panel">
+          <div class="phone-top"><span class="phone-brand"><span class="mini-drop">◈</span> zora guardian</span><span class="phone-menu">•••</span></div>
+          <div class="phone-subtitle">Cisterna principal <span class="phone-online">● En línea</span></div>
+          <div class="app-gauge-wrap">
+            <svg class="gauge" viewBox="0 0 180 180" aria-label="Indicador del nivel de agua">
+              <circle class="gauge-track" cx="90" cy="90" r="76"/>
+              <circle class="gauge-value" id="gaugeValue" cx="90" cy="90" r="76"/>
+            </svg>
+            <div class="gauge-center"><strong id="appPercent">78%</strong><span>Nivel de agua</span></div>
+          </div>
+          <div class="app-metrics">
+            <div><span>Volumen estimado</span><strong id="appLiters">7,800 L</strong></div>
+            <div><span>Estado del sistema</span><strong class="status-pill" id="statusPill">Normal</strong></div>
+          </div>
+          <div class="alert-box" id="alertBox"><span class="alert-symbol" id="alertSymbol">✓</span><div><strong id="alertTitle">Todo en orden</strong><p id="alertText">El nivel se encuentra dentro del rango habitual.</p></div></div>
+          <div class="phone-nav"><span class="active">⌂<small>Inicio</small></span><span>◷<small>Historial</small></span><span>♧<small>Alertas</small></span><span>⚙<small>Ajustes</small></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="device-section section-pad" id="producto">
+      <div class="section-heading">
+        <div><div class="section-kicker">DISEÑADO PARA ESTAR AHÍ <span>04 — 04</span></div><h2>Pequeño equipo.<br><span>Una vista más amplia.</span></h2></div>
+        <p>Una unidad electrónica protegida y un sensor ultrasónico trabajan en conjunto para llevar la medición hasta tu dispositivo.</p>
+      </div>
+      <div class="device-feature">
+        <div class="device-image-wrap"><img src="assets/zora-exploded-view.png" alt="Vista conceptual del sensor Zora Guardian y sus componentes internos"></div>
+        <div class="device-details">
+          <div class="detail-item"><span>01</span><div><h3>Unidad electrónica</h3><p>Carcasa de protección para alojar la electrónica y los elementos de comunicación.</p></div></div>
+          <div class="detail-item"><span>02</span><div><h3>Medición ultrasónica</h3><p>Lectura de distancia hacia la superficie del agua, sin contacto directo.</p></div></div>
+          <div class="detail-item"><span>03</span><div><h3>Consulta digital</h3><p>Información del nivel disponible desde una interfaz móvil.</p></div></div>
+          <div class="spec-note">Las imágenes de componentes son representaciones conceptuales. La configuración y los grados de protección deben confirmarse con la ficha técnica final.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="audience-section">
+      <div class="audience-heading"><div class="section-kicker">UNA SOLUCIÓN PARA DISTINTOS ESPACIOS</div><h2>Donde el agua<br>no puede faltar.</h2></div>
+      <div class="audience-cards">
+        <article class="audience-card home-card"><div class="audience-number">01 / HOGARES</div><div class="audience-symbol">⌂</div><h3>En casa</h3><p>Para hogares que dependen de cisternas o tanques y necesitan conocer su reserva.</p></article>
+        <article class="audience-card business-card"><div class="audience-number">02 / NEGOCIOS</div><div class="audience-symbol">▦</div><h3>En tu operación</h3><p>Para comercios, restaurantes, centros educativos, clínicas y administradores de edificios.</p></article>
+      </div>
+    </section>
+
+    <section class="contact-section section-pad" id="contacto">
+      <div class="contact-copy"><div class="section-kicker light-kicker">DA EL SIGUIENTE PASO</div><h2>Ten el agua<br><em>bajo control.</em></h2><p>Conoce más sobre Zora Guardian y explora cómo podría adaptarse a tu cisterna o instalación.</p></div>
+      <div class="contact-card"><div class="contact-card-top">ZORA GUARDIAN <span>HONDURAS</span></div><h3>¿Quieres conocer el sistema?</h3><p>Déjanos tus datos y prepara una consulta sobre el dispositivo, su instalación y disponibilidad.</p><form id="contactForm"><label for="name">Nombre</label><input id="name" name="name" required placeholder="Tu nombre"><label for="email">Correo electrónico</label><input id="email" name="email" type="email" required placeholder="nombre@correo.com"><label for="interest">Me interesa</label><select id="interest" name="interest"><option>Instalación en mi hogar</option><option>Solución para mi negocio</option><option>Información comercial</option></select><button class="button button-primary form-submit" type="submit">Preparar consulta <span>↗</span></button><p class="form-feedback" id="formFeedback" aria-live="polite"></p></form><div class="contact-foot">Formulario demostrativo · Falta conectar un servicio de recepción de consultas.</div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand footer-brand" href="#inicio"><span class="brand-mark"><svg viewBox="0 0 44 50"><path d="M22 3C16 14 5 24 5 33a17 17 0 0 0 34 0C39 24 28 14 22 3Z"/><path d="M12 31c5-5 15-5 20 0M16 36c3-3 9-3 12 0M21 41h2"/></svg></span><span class="brand-name">zora<span>guardian</span></span></a><span>Monitoreo inteligente de agua.</span><span>© <span id="year"></span> Zora Guardian</span><a href="#inicio">Volver arriba ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
