@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Menu, X, ArrowDownRight } from "lucide-react";
 
-const LOGO_URL = "/assets/aistudio/logozora_290e0fb5.png";
+const LOGO_URL = `${import.meta.env.BASE_URL}assets/zora-guardian-logo.svg`;
 
 const NAV_LINKS = [
   { href: "#como-funciona", label: "Cómo funciona" },
